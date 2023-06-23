@@ -1,0 +1,16 @@
+<view class="container">
+  <image wx:if="{{imageUrl == ''}}" src="../../images/ic_homepage.jpg" mode="aspectFit" style="height: 250rpx; margin-top: 30%;"></image>
+  <text wx:if="{{imageUrl == ''}}" style="margin: 20rpx; font-size: large;">请选择病害植物照片:</text>
+  <button bindtap="chooseImage" class="border" size="mini">{{addText}}</button>
+  <image src="{{imageUrl}}" mode="aspectFit" style="margin-top: 40rpx;"/>
+  <text wx:if="{{result != ''}}" style="margin-top: 40rpx;">共有3条结果</text>
+  <scroll-view wx:if="{{result != ''}}">
+    <block wx:for="{{result}}">
+      <view class="result">
+        <text>结果{{index + 1}}：{{item.name}} </text>
+        <text>匹配度：{{item.percent}}</text>
+        <button bindtap="goToDetail" data-title="{{item.name}}" class="solid" size="mini">查看详情</button>
+      </view>
+    </block>
+  </scroll-view>
+</view>

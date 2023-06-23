@@ -1,0 +1,11 @@
+<scroll-view class="container">
+  <block wx:for="{{plants}}">
+    <view class="item">
+      <image src="{{item.image}}" mode="widthFix" style="width: 250rpx;"></image>
+      <view>
+        <text class="itemTitle">{{item.title}}</text>
+        <text class="itemText" bindtap="goToDetail" data-title="{{item.title}}">>>查看详情</text>
+      </view>
+    </view>
+  </block>
+</scroll-view>

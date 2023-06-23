@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  padding-top: 0%;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  padding-bottom: 0%;
+}
+
+.item {
+  border: 4rpx solid #4caf50;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  margin-top: 40rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.itemTitle {
+  font-size: large;
+  overflow: hidden;
+}
+
+.itemText {
+  margin-top: 30rpx;
+  display: block; 
+  color: #4caf50;
+}

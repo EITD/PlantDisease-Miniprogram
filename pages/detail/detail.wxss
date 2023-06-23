@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 40rpx;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 40rpx;
+}
+
+button {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.unchecked {
+  border: 1rpx solid #4caf50;
+  background-color: #ffffff;
+  color: #4caf50;
+}
+
+.checked {
+  border: 1rpx solid #4caf50;
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.detail {
+  margin: 40rpx 20rpx;
+  padding: 30rpx;
+  background-color: #f6f6f6;
+  border-radius: 15rpx;
+}

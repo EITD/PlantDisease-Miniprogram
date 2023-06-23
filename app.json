@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/takePhoto/takePhoto",
+    "pages/cropper/cropper",
+    "pages/detail/detail",
+    "pages/wiki/wiki",
+    "pages/image-cropper/image-cropper",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#80e27e",
+    "navigationBarTitleText": "知农",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#80e27e",
+    "selectedColor": "#087f23",
+    "list": [
+      {
+        "pagePath": "pages/takePhoto/takePhoto",
+        "text": "检测",
+        "iconPath": "/images/ic_camera.png",
+        "selectedIconPath": "/images/ic_camera.png"
+      },
+      {
+        "pagePath": "pages/wiki/wiki",
+        "text": "百科",
+        "iconPath": "/images/ic_wiki.png",
+        "selectedIconPath": "/images/ic_wiki.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

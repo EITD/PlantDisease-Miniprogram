@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 40rpx;
+}
+
+.border {
+  border: 1rpx solid #087f23;
+  background-color: #ffffff;
+  color: #087f23;
+  margin-top: 20rpx;
+}
+
+.result {
+  width: 600rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rpx;
+  border:4rpx solid #087f23;
+  font-size: large;
+  margin-top: 30rpx;
+  padding: 30rpx;
+}
+
+.solid {
+  margin-top: 20rpx;
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}

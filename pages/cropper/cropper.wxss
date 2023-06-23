@@ -1,0 +1,28 @@
+.hint {
+  position: absolute;
+  top: 20rpx;
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+.bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 30rpx;
+  display: flex;
+  z-index: 10;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  z-index: 2;
+  border: white 1rpx solid;
+}
+
+.check {
+  color: #4caf50;
+  border: #4caf50 1rpx solid;
+}

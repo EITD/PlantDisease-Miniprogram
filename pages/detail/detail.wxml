@@ -1,0 +1,10 @@
+<view class="container">
+  <text style="font-size: large;">{{item.title}}</text>
+  <image src="{{item.image}}" mode="aspectFit" style="margin-top: 40rpx;"/>
+  <view class="buttons">
+    <block wx:for="{{buttons}}">
+      <button size="mini" class='{{item.checked? "checked" : "unchecked"}}' bindtap="showDetail" data-name="{{item.name}}">{{item.name}}</button>
+    </block>
+  </view>
+  <text class="detail" decode="{{true}}">{{item.detail}}</text>
+</view>
