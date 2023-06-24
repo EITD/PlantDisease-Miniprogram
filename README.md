@@ -9,7 +9,7 @@ Model: https://github.com/EITD/PlantDisease
 | Model   | ResNet50 + PaddlePaddle       |
 | Optimizer | Momentum  |
 | Study Rate | Cosine annealing |
-| Visibility | VisualDL  |
+| Visualization | VisualDL  |
 
 
 ### Mini-program
